@@ -233,7 +233,6 @@ Specify task parameters as it is shown in the table below:
 Save the pipeline and create a release to trigger it manually. Once the pipeline execution is finished, check out deployments in the **mlops-AML-WS** workspace.
 
 
-
 Congratulations! You have three pipelines set up end to end:
    - Build pipeline: triggered on code change to master branch on GitHub, performs linting, unit testing and publishing a training pipeline
    - Release Trigger pipeline: runs a published training pipeline to train, evaluate and register a model
