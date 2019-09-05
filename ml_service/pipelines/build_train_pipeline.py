@@ -16,7 +16,7 @@ import json
 def main():
     load_dotenv()
     workspace_name = os.environ.get("BASE_NAME")+"-AML-WS"
-    resource_group = os.environ.get("BASE_NAME")+"-AML-RG"
+    resource_group = os.environ.get("RESOURCE_GROUP")
     subscription_id = os.environ.get("SUBSCRIPTION_ID")
     tenant_id = os.environ.get("TENANT_ID")
     app_id = os.environ.get("SP_APP_ID")
